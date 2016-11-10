@@ -32,5 +32,5 @@ finparse.parse("($1,234,567.89)")
 import decimal
 
 finparse.parse("$1,234,567.89", cast=decimal.Decimal)
-# => 1234567.89
+# => Decimal('1234567.89')
 ```
