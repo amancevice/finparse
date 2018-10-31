@@ -16,5 +16,6 @@ deploy:
   password:
     secure: NFvMQ278FYY8GAKDkOYZBGzFOcRp2PlNWdMmAiw99GZlEJ7ebqoX0abdSz12LWpW/iPpsEQdy4YapJbwUWVvDDttbJ3UyI8R5xJ0ekFK+LtrlzzLUDwhI8/kunDN+WEZ7jxkHitNAw8f8tLomJt+V2dZ3vDw9aM7j60fxBmKHquwpSz/9xt6sWxxct2RB3Ae+Bj+8KDODd+lGxs679ts6xqTaZHAPbsX0kXND3/LYyC0Mv7Y0HPcGuLYkiBWAzS2qGJUvAe/eCS1MNCws4jX0GaqwLMgE62JCvjWT1PPIAAk92MzOMUNuS99bhshxAAtgxGqqPl2qoj4DtYvBas4m4mR1/9k6GjhNfjRoyof9pll3dbksp/U1Ge5UhpJIYmEyHB4PeZBnN+7GYBbn4YhSujVq7qgwcgVODujPTlNyz+oIv9GA7rq0ULlEOVJNTOUD0wn+y77H5Fcq5szCC9qWFx1/4mNQgN1mXs4nhjEO/ZpmVddktuPsW201eebHOQpHMeZyODGCdCXbL9d+KplqkKbO54oa65HsEsVAi+2ivkZK6vI7r12mwU+wC+yedSAs1RlPZOk1TGHi9SS964wumPBkUzLuAJa0sUdNTNODHby2B63AXkuzNpQLYrCEcnxszhnVoaZF1StqZJ7KioBBVkwf/Z2KkLKD9zjp6wXtQ8=
   on:
-    tags: true
+    python: '3.6'
     repo: amancevice/finparse
+    tags: true
