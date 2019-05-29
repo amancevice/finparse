@@ -26,9 +26,10 @@ def strip(string, decimal='.'):
     return re.sub(r'[^\d{}]+'.format(decimal), '', string)
 
 
-def parse(string, decimal='.', cast=float):
+def parse(string, decimal='.', cast=None):
     """ Parse a string to a number object. """
     string = str(string)
+    cast = cast or float
     pct = string.endswith('%')
     sign, string = sign_string(string)
     string = strip(string, decimal)

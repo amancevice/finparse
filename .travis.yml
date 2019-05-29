@@ -1,21 +1,28 @@
 language: python
 python:
-- '3.5'
-- '3.6'
-- 3.7-dev
-install:
-- pip install -r requirements.txt -r requirements-dev.txt
+- "3.5"
+- "3.6"
+- "3.7-dev"
 script:
-- pylint finparse
-- py.test
-after_success: codecov
+- make
+after_success:
+- pip install codecov
+- codecov
 deploy:
-  provider: pypi
+- provider: pypi
   user: amancevice
   password:
-    secure: NnqdCly7tuXykx3abuTlhBeZXIDi6PcRZ0+LqYZFwsPQLM8wYC3rHppT1k53eNWHTPgY1ai5CaTWSso1AmzJoynkaQNGhtvyZwuXWrQQU7DWA1cNKmOtTRIT6d1uT9rr8IFYWbFZQjfpHrsUevztLCy42S6JbGx56hhQDcO4IGOKAbWxcqaAAfKwpw0YvGkM8UUTd/Uf1CTEw2r6bKqnuPJMc8kcCOy12DUOdn/R2dCJYNlMBlCczP5+23tuSGeOulJYKrMGl7frlH1NZVbsl5KPUdV6C3Ud+wAAwY+bkx/pt6dMsKmuDoBmds+jix6sRWJvrBgZ4CDuqbqMTigyyfRXdAQqjmSq+6K+40GIuoInZaMo3caAfKDfShdtnRuqs5Dn3pNCVk3lwThxWReDQQuarYiIXOgvI45g1GBX7aXUHqIHTU8KYo7ODf/eE8ksbhhucTtuHOqZ7YChnglObnb10xpMQjPRdvk8Jyw6OdAKSZrsVAJmjX3v8MFEWUafgu3QVp9evv1ZiofOiWcAWktOnDZnAiXQBrLGiWB1fAwWUSYis2j0WqLisKT6orsQuKkH9CXH2pYQkldh12V2Cp8YTSx1eAMc2ZYZvWlDgTKgsjM2OApAGesUF2M6sQVt9CFZtjvPYEfoQJodWAxeqWcfdJcEAVd+PjgPM6KF+ys=
+    secure: >-
+      NnqdCly7tuXykx3abuTlhBeZXIDi6PcRZ0+LqYZFwsPQLM8wYC3rHppT1k53eNWHTPgY1ai5C
+      aTWSso1AmzJoynkaQNGhtvyZwuXWrQQU7DWA1cNKmOtTRIT6d1uT9rr8IFYWbFZQjfpHrsUev
+      ztLCy42S6JbGx56hhQDcO4IGOKAbWxcqaAAfKwpw0YvGkM8UUTd/Uf1CTEw2r6bKqnuPJMc8k
+      cCOy12DUOdn/R2dCJYNlMBlCczP5+23tuSGeOulJYKrMGl7frlH1NZVbsl5KPUdV6C3Ud+wAA
+      wY+bkx/pt6dMsKmuDoBmds+jix6sRWJvrBgZ4CDuqbqMTigyyfRXdAQqjmSq+6K+40GIuoInZ
+      aMo3caAfKDfShdtnRuqs5Dn3pNCVk3lwThxWReDQQuarYiIXOgvI45g1GBX7aXUHqIHTU8KYo
+      7ODf/eE8ksbhhucTtuHOqZ7YChnglObnb10xpMQjPRdvk8Jyw6OdAKSZrsVAJmjX3v8MFEWUa
+      fgu3QVp9evv1ZiofOiWcAWktOnDZnAiXQBrLGiWB1fAwWUSYis2j0WqLisKT6orsQuKkH9CXH
+      2pYQkldh12V2Cp8YTSx1eAMc2ZYZvWlDgTKgsjM2OApAGesUF2M6sQVt9CFZtjvPYEfoQJodW
+      AxeqWcfdJcEAVd+PjgPM6KF+ys=
   on:
-    distributions: sdist bdist_wheel
-    python: '3.6'
     repo: amancevice/finparse
     tags: true
