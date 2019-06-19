@@ -1,6 +1,6 @@
 # finparse
 
-[![build](https://travis-ci.org/amancevice/finparse.svg?branch=master)](https://travis-ci.org/amancevice/finparse)
+[![build](https://travis-ci.com/amancevice/finparse.svg?branch=master)](https://travis-ci.com/amancevice/finparse)
 [![codecov](https://codecov.io/gh/amancevice/finparse/branch/master/graph/badge.svg)](https://codecov.io/gh/amancevice/finparse)
 [![pypi](https://badge.fury.io/py/finparse.svg)](https://badge.fury.io/py/finparse)
 
