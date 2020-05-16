@@ -1,12 +1,12 @@
 # Finparse
 
-[![pytest](https://github.com/amancevice/finparse/workflows/pytest/badge.svg)](https://github.com/amancevice/finparse/actions)
-[![PyPI Version](https://badge.fury.io/py/finparse.svg)](https://badge.fury.io/py/finparse)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8ef42c97b3c1f5790990/test_coverage)](https://codeclimate.com/github/amancevice/finparse/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8ef42c97b3c1f5790990/maintainability)](https://codeclimate.com/github/amancevice/finparse/maintainability)
+![pypi](https://img.shields.io/pypi/v/finparse?color=yellow&logo=python&logoColor=eee&style=flat-square)
+![python](https://img.shields.io/pypi/pyversions/finparse?logo=python&logoColor=eee&style=flat-square)
+[![pytest](https://img.shields.io/github/workflow/status/amancevice/finparse/pytest?logo=github&style=flat-square)](https://github.com/amancevice/finparse/actions)
+[![coverage](https://img.shields.io/codeclimate/coverage/amancevice/finparse?logo=code-climate&style=flat-square)](https://codeclimate.com/github/amancevice/finparse/test_coverage)
+[![maintainability](https://img.shields.io/codeclimate/maintainability/amancevice/finparse?logo=code-climate&style=flat-square)](https://codeclimate.com/github/amancevice/finparse/maintainability)
 
 Parse financial strings to number objects
-
 
 ## Installation
 
