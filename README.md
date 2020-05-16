@@ -1,6 +1,6 @@
-# finparse
+# Finparse
 
-[![Build Status](https://travis-ci.com/amancevice/finparse.svg?branch=master)](https://travis-ci.com/amancevice/finparse)
+[![pytest](https://github.com/amancevice/finparse/workflows/pytest/badge.svg)](https://github.com/amancevice/finparse/actions)
 [![PyPI Version](https://badge.fury.io/py/finparse.svg)](https://badge.fury.io/py/finparse)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8ef42c97b3c1f5790990/test_coverage)](https://codeclimate.com/github/amancevice/finparse/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8ef42c97b3c1f5790990/maintainability)](https://codeclimate.com/github/amancevice/finparse/maintainability)
