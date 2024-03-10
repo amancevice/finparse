@@ -2,7 +2,7 @@
 
 import re
 
-__version__ = "0.1.4"
+__version__ = "0.2.0"
 
 
 def sign_string(string, sign=1):
