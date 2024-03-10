@@ -1,4 +1,5 @@
 """ Module to parse a number-string to a float or decimal. """
+
 import re
 
 __version__ = "0.1.4"
